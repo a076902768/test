@@ -1,4 +1,3 @@
-
 const routerBase =
   // process.env.DEPLOY_ENV === 'GH_PAGES'
   true
@@ -8,6 +7,9 @@ const routerBase =
       }
     }
     : {}
+
+console.log('routerBase : ', routerBase);
+
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
