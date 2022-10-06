@@ -2,6 +2,7 @@ const routerBase =
   // process.env.DEPLOY_ENV === 'GH_PAGES'
   true
     ? {
+      target: 'static',
       router: {
         base: '/test/'
       }
